@@ -5,7 +5,9 @@ import {
 } from '../types';
 
 const initialState = {
-    employees: ''
+    employees: '',
+    loading: false,
+    error: ''
 }
 
 export default function employee(state = initialState, action: any) {
