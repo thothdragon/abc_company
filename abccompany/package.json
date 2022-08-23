@@ -6,6 +6,7 @@
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
     "@mui/material": "^5.10.2",
+    "@mui/x-data-grid": "^5.15.3",
     "@redux-devtools/core": "^3.13.1",
     "@redux-devtools/extension": "^3.2.3",
     "@testing-library/jest-dom": "^5.16.5",

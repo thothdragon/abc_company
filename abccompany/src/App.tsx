@@ -2,17 +2,15 @@ import React from 'react';
 import { Box, Typography } from '@mui/material';
 
 import './App.css';
+import EmployeeList from './components/EmployeeList';
 
-function App() {
+export default function App() {
   return (
     <Box>
 
-      <Typography>
-        Hello World !
-      </Typography>
+      <EmployeeList />
 
     </Box>
   );
 }
 
-export default App;
