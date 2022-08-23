@@ -30,14 +30,14 @@ export default function EmployeeList() {
   }
 
   const columns: GridColDef[] = [
-    { field: 'name', headerName: 'Name', width: 130 },
-    { field: 'phone', headerName: 'Phone', width: 130 },
-    { field: 'email', headerName: 'eMail', width: 130 },
-    { field: 'city', headerName: 'City', width: 130 },
+    { field: 'name', headerName: 'Name', flex: 1 },
+    { field: 'phone', headerName: 'Phone', flex: 1 },
+    { field: 'email', headerName: 'eMail', flex: 1 },
+    { field: 'city', headerName: 'City', flex: 1 },
     {
       field: 'picture',
       headerName: 'Picture',
-      width: 160,
+      flex: 1,
       renderCell: ((params) => {
         return (
           <Avatar src={params.value} />
