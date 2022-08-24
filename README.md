@@ -9,9 +9,11 @@ $ cd abccompany
 ```
 
 Next
-
+```console
 $ npm i
+```
 
 And finaly
-
+```console
 $ npm start
+```
