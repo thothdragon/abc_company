@@ -30,6 +30,7 @@ export default function EmployeeList() {
   }
 
   const columns: GridColDef[] = [
+    { field: 'id', headerName: 'ID', flex: 1, hide: true },
     { field: 'name', headerName: 'Name', flex: 1 },
     { field: 'phone', headerName: 'Phone', flex: 1 },
     { field: 'email', headerName: 'eMail', flex: 1 },
@@ -44,6 +45,7 @@ export default function EmployeeList() {
         )
       })
     },
+    { field: 'nat', headerName: 'Nationality', flex: 1, hide: true }
   ];
 
   return (
