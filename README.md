@@ -1,4 +1,4 @@
-# abc_company
+## ABC company - Employees List
 One page that will display the list of employees of Company ABC.
 
 # Run the application
@@ -17,3 +17,8 @@ And finaly
 ```console
 $ npm start
 ```
+
+# Usage
+1/ Possibility to hide (or show) different columns 
+
+2/ Filter on the different elements of the spreadsheet
