@@ -1,13 +1,17 @@
 import React from 'react';
-import { Box, Typography } from '@mui/material';
+import { Box } from '@mui/material';
+
+import EmployeeList from './components/EmployeeList';
+import HeaderCompanyBar from './components/HeaderCompanyBar';
 
 import './App.css';
-import EmployeeList from './components/EmployeeList';
 
 export default function App() {
   return (
     <Box>
 
+      <HeaderCompanyBar />
+      
       <EmployeeList />
 
     </Box>
